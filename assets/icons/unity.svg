@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 110.8 128">
+  <defs>
+    <style>
+      .cls-1 {
+        display: none;
+        opacity: .7;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.9, SVG Export Plug-In . SVG Version: 1.2.0 Build 218)  -->
+  <g>
+    <g id="greyscale">
+      <path d="M55.4,0L0,32v64l55.4,32,55.4-32V32L55.4,0ZM96.9,83.5l-14.9-8.6v-17.7c0,0-19.4,10.8-19.4,10.8l.3,22.1,15.4-8.8,14.9,8.6-37.7,21.8-37.8-21.8,14.9-8.6,15.4,8.8.3-22.1-19.3-10.8v17.7c0,0-15,8.6-15,8.6v-43.6s37.8-21.8,37.8-21.8v17.2l-15.3,8.9,19,11.3,19-11.3-15.3-8.9v-17.2l37.7,21.8s0,43.6,0,43.6Z"/>
+      <image class="cls-1" width="512" height="512" transform="translate(-8.4 .1) scale(.2)" xlink:href="../../../Untitled-3.png"/>
+    </g>
+  </g>
+</svg>

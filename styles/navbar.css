@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+#navbar {
+	display: flex;
+	width: 100%;
+	height: 80px;
+	z-index: 100;
+	position: fixed;
+	box-shadow: var(--shadow-navbar);
+    background: linear-gradient(to bottom, #525252, #2a2a2a);
+}
+
+#logo {
+	width: 69px;
+	height: 48px;
+	margin: 16px;
+	user-select: none;
+}
+
+#menuButton {
+	display: none;
+	width: 56px;
+	height: 56px;
+	margin: 12px;
+	margin-left: auto;
+	padding: 13px;
+	cursor: pointer;
+	border-radius: 0.5rem;
+	transition: background-color 0.05s ease-out;
+}
+
+#menuButton:hover {
+	background-color: #ffffff30;
+}
+
+#menuButton-image {
+	width: 30px;
+	height: 30px;
+	opacity: 50%;
+	filter: invert();
+	transition: opacity 0.05s ease-out;
+}
+
+#menuButton:hover > #menuButton-image {
+	opacity: 100%;
+}
+
+.navbar-page,
+.navbar-pageCurrent {
+	display: flex;
+	width: auto;
+	height: 56px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding: 15px;
+	padding-right: 18px;
+	padding-left: 18px;
+	border-radius: 0.5rem;
+	opacity: 45%;
+	transition: opacity 0.05s ease-out, background-color 0.05s ease-out;
+}
+
+.navbar-pageCurrent {
+	pointer-events: none;
+    opacity: 100%;
+}
+
+.navbar-page:hover {
+	opacity: 100%;
+	background-color: #ffffff30;
+}
+
+.navbar-page-image {
+	width: 26px;
+	height: 26px;
+	filter: invert();
+}
+
+.navbar-page-text {
+    font-family: var(--semibold);
+	line-height: 26px;
+	margin-left: 13px;
+	color: #ffffff;
+	opacity: 100%;
+	user-select: none;
+}
+
+#navbar-divider {
+	position: fixed;
+	top: 80px;
+	width: 100%;
+	height: 1px;
+	background-color: #606060;
+}
+
+
+
+
+/* ---------- Mobile view ---------- */
+
+#menu {
+	background-color: #2d2d2d;
+	width: 100%;
+	height: 0px;
+	top: 80px;
+	box-shadow: var(--shadow-none);
+	z-index: 50;
+	position: fixed;
+	overflow: hidden;
+	transition: height 0.17s cubic-bezier(.17,.12,.37,.97);
+}
+
+.menu-page,
+.menu-pageCurrent {
+	display: flex;
+	padding: 18px;
+	height: 66px;
+	opacity: 40%;
+	background-color: #ffffff00;
+	transition: opacity 0.05s ease-out, background-color 0.05s ease-out;
+}
+
+.menu-pageCurrent {
+	pointer-events: none;
+    opacity: 100%;
+}
+
+.menu-page:hover {
+	opacity: 100%;
+	background-color: #d0d0d020;
+}
+
+.menu-page-image {
+	width: 30px;
+	height: 30px;
+	filter: invert();
+}
+
+.menu-page-text {
+    font-family: var(--semibold);
+	line-height: 30px;
+	margin-left: 12px;
+	color: #ffffff;
+	opacity: 100%;
+	user-select: none;
+}
+
+.menu-divider {
+	width: auto;
+	height: 1px;
+	margin-left: 13px;
+	margin-right: 13px;
+	background-color: #4b4b4b;
+}

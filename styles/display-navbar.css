@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@media (max-width: 890px) {
+	.navbar-page,
+	.navbar-pageCurrent {
+		display: none;
+	}
+
+	#menuButton {
+		display: block;
+	}
+}

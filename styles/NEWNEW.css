@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+.modal-section1 h1,
+.modal-section2 h1 {
+	font-family: var(--bold);
+	font-size: 28px;
+}
+
+.modal-section3 h1 {
+    font-family: var(--bold);
+	font-size: 24px;
+	margin: auto;
+	margin-left: 0;
+}
+
+.modal-section1 h2,
+.modal-section2 h2 {
+	font-size: 15px;
+    font-family: var(--semibold);
+	color: var(--grey1);
+}
+
+.modal-section3 h2 {
+	font-size: 1.6rem;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 1rem;
+	font-family: var(--semibold);
+}
+
+.modal-section1 h3,
+.modal-section2 h3 {
+	font-family: var(--semibold);
+	color: var(--grey2);
+}
+
+.modal-section3 h3 {
+	font-size: 0.9rem;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	font-family: var(--semibold);
+}
+
+.modal-description {
+	padding-right: 0.5rem;
+	overflow-y: auto;
+	margin-top: 0.25rem;
+	height: 634px;
+}
+
+.modal-button {
+	background-color: #ffffff20;
+	height: 54px;
+	gap: 12px;
+	font-size: 16px;
+	border-radius: 0.5rem;
+	margin-top: 0.5rem;
+	padding: 13px 16px 13px 16px;
+    display: flex;
+	cursor: pointer;
+    user-select: none;
+	transition: all 0.05s ease-out;
+}
+
+.modal-button:hover {
+	background-color: #ffffff40;
+}
+
+.modal-button img {
+	filter: invert();
+}
+
+.modal-button p {
+	margin: auto;
+	margin-left: 0;
+	font-family: var(--semibold);
+}
+
+
+
+
+/* ----- Slideshow ----- */
+
+.slideshow {
+	display: flex;
+	position: relative;
+	margin-top: 1.25rem;
+	margin-bottom: 4px;
+	min-height: 200px;
+	border: 3px solid #101010;
+}
+
+.slideshow-feature {
+	user-select: none;
+	width: 100%;
+	height: auto;
+}
+
+.slideshow-overlay {
+	position: absolute;
+	display: grid;
+	width: 100%;
+	height: 100%;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 20%;
+}
+
+.slideshow-overlay > img {
+	width: 2rem;
+	margin: auto;
+	filter: invert() drop-shadow(0rem 2px 1px #000000ff);
+}
+
+.slideshow-left {
+	display: flex;
+	cursor: pointer;
+	visibility: hidden;
+	height: 100%;
+	background: linear-gradient(to right, #00000050, #00000000 70%);
+}
+
+.slideshow-left > img {
+	width: 2rem;
+	margin: auto;
+	filter: invert() drop-shadow(0rem 2px 1px #000000ff);
+	margin-left: 1rem;
+}
+
+.slideshow-right {
+	display: flex;
+	cursor: pointer;
+	height: 100%;
+	background: linear-gradient(to right, #00000000 30%, #00000050);
+}
+
+.slideshow-right > img {
+	width: 2rem;
+	margin: auto;
+	filter: invert() drop-shadow(0rem 2px 1px #000000ff);
+	margin-right: 1rem;
+}
+
+.slideshow-counter {
+	display: flex;
+	position: absolute;
+	top: auto;
+	bottom: 0;
+	left: auto;
+	right: 0;
+	background-color: #101010;
+	width: 4rem;
+	height: 1.5rem;
+}
+
+.slideshow-ID {
+    font-family: var(--semibold);
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+/* ----- Changelog ----- */
+
+.changelog-header {
+	padding: 0.6rem;
+	display: flex;
+	border-radius: 0.65rem 0.65rem 0 0; background-color: #333333;
+	gap: 0.75rem;
+}
+
+.changelog-header > div {
+	background-color: #90909050;
+	padding: 0.75rem;
+	border-radius: 0.4rem;
+	width: 50px;
+	height: 50px;
+	transition: all 0.05s ease-out;
+}
+
+.changelog-header > div:hover {
+	background-color: #90909090;
+	cursor: pointer;
+}
+
+.changelog-header > div > img {
+	filter: invert();
+	width: auto;
+}
+
+.changelog {
+	height: 650px;
+	overflow-y: scroll;
+	background: linear-gradient(to bottom,
+		#141414 0px,
+		#202020 3px,
+		#202020 3px,
+		#202020 4px
+	);
+	border-radius: 0 0 0.75rem 0.75rem;
+	padding: 0 0.75rem 0 0.75rem;
+}
+
+.changelog hr {
+	width: 100%;
+	height: 1px;
+	background-color: #404040;
+	margin: 0;
+	margin-bottom: 1rem;
+}
+
+.metadata {
+	display: flex;
+	margin-top: 1rem;
+}
+
+.metadata img {
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 21px;
+	margin-right: 8px;
+}
+
+.metadata p {
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 0.9rem;
+	user-select: none;
+	color: #e0ffb1;
+}
+
+.changes {
+	line-height: 1.7;
+	font-size: 15px;
+	margin-bottom: 1.25rem;
+}
+
+.downloadContainer {
+	display: flex;
+	margin-bottom: 1.5rem;
+	gap: 6px;
+}
+
+.downloadContainer a {
+	display: flex;
+	background-color: #90909050;
+	padding: 0.5rem;
+	padding-left: 0.85rem;
+	padding-right: 0.85rem;
+	border-radius: 0.4rem;
+	height: 42px;
+	user-select: none;
+	gap: 10px;
+	transition: all 0.05s ease-out;
+}
+
+.downloadContainer a:hover {
+	background-color: #90909090;
+}
+
+.downloadContainer img {
+	width: 20px;
+	filter: invert();
+}
+
+.downloadContainer p {
+	font-size: 0.9rem;
+	font-family: var(--semibold);
+	margin-top: auto;
+	margin-bottom: auto;
+	line-height: 1;
+}
