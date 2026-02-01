@@ -1,48 +1,21 @@
 @charset "UTF-8";
 
-#navbar {
+.navbar {
 	display: flex;
 	width: 100%;
 	height: 80px;
 	z-index: 100;
 	position: fixed;
-	box-shadow: var(--shadow-navbar);
-    background: linear-gradient(to bottom, #525252, #2a2a2a);
+	box-shadow: 0rem 0.1rem 0.6rem #00000088;
 }
 
-#logo {
+.logo {
 	width: 69px;
 	height: 48px;
-	margin: 16px;
+	margin: auto;
+	margin-left: 16px;
+	margin-right: 16px;
 	user-select: none;
-}
-
-#menuButton {
-	display: none;
-	width: 56px;
-	height: 56px;
-	margin: 12px;
-	margin-left: auto;
-	padding: 13px;
-	cursor: pointer;
-	border-radius: 0.5rem;
-	transition: background-color 0.05s ease-out;
-}
-
-#menuButton:hover {
-	background-color: #ffffff30;
-}
-
-#menuButton-image {
-	width: 30px;
-	height: 30px;
-	opacity: 50%;
-	filter: invert();
-	transition: opacity 0.05s ease-out;
-}
-
-#menuButton:hover > #menuButton-image {
-	opacity: 100%;
 }
 
 .navbar-page,
@@ -70,14 +43,16 @@
 	background-color: #ffffff30;
 }
 
-.navbar-page-image {
+.navbar-page > img,
+.navbar-pageCurrent > img {
 	width: 26px;
 	height: 26px;
 	filter: invert();
 }
 
-.navbar-page-text {
-    font-family: var(--semibold);
+.navbar-page > span,
+.navbar-pageCurrent > span {
+	font-family: "Open Sans Semibold";
 	line-height: 26px;
 	margin-left: 13px;
 	color: #ffffff;
@@ -85,21 +60,43 @@
 	user-select: none;
 }
 
-#navbar-divider {
+#menuButton {
+	opacity: 60%;
+	display: none;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	margin-right: 12px;
+	cursor: pointer;
+	transition: opacity 0.05s ease-out;
+}
+
+#menuButton:hover {
+	opacity: 100%;
+}
+
+#menuButton > img {
+	margin: auto;
+	width: 32px;
+}
+
+.navbar-divider {
 	position: fixed;
 	top: 80px;
 	width: 100%;
 	height: 1px;
-	background-color: #606060;
 }
 
 
 
 
-/* ---------- Mobile view ---------- */
+
+
+
+
 
 #menu {
-	background-color: #2d2d2d;
+	box-shadow: 0rem 0.1rem 0.67rem #00000000;
 	width: 100%;
 	height: 0px;
 	top: 80px;
@@ -116,7 +113,6 @@
 	padding: 18px;
 	height: 66px;
 	opacity: 40%;
-	background-color: #ffffff00;
 	transition: opacity 0.05s ease-out, background-color 0.05s ease-out;
 }
 
@@ -127,17 +123,18 @@
 
 .menu-page:hover {
 	opacity: 100%;
-	background-color: #d0d0d020;
 }
 
-.menu-page-image {
+.menu-page > img,
+.menu-pageCurrent > img {
 	width: 30px;
 	height: 30px;
 	filter: invert();
 }
 
-.menu-page-text {
-    font-family: var(--semibold);
+.menu-page > span,
+.menu-pageCurrent > span {
+	font-family: "Open Sans Semibold";
 	line-height: 30px;
 	margin-left: 12px;
 	color: #ffffff;
@@ -148,7 +145,20 @@
 .menu-divider {
 	width: auto;
 	height: 1px;
-	margin-left: 13px;
-	margin-right: 13px;
-	background-color: #4b4b4b;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+/* ---------- Mobile view ---------- */
+
+@media (max-width: 762px) {
+	.navbar-page,
+	.navbar-pageCurrent {
+		display: none;
+	}
+
+	#menuButton {
+		display: flex;
+	}
 }

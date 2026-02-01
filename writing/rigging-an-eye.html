@@ -5,151 +5,165 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Portfolio website for a user">
-		<link rel="stylesheet" href="../styles/old-main.css">
-		<link rel="stylesheet" href="../styles/old-article-light.css">
-        <link rel="stylesheet" href="../styles/old-display.css">
+		<link rel="stylesheet" href="../styles/main.css">
+		<link rel="stylesheet" href="../styles/navbar.css">
+		<link rel="stylesheet" href="../styles/modal.css">
+		<link rel="stylesheet" href="../styles/colorDark.css">
+		<link rel="stylesheet" href="../styles/article.css">
 		<link rel="icon" type="image/x-icon" href="assets/favicon.png">
     </head>
     <body>
 
-		<nav id="navbar">
-			<img id="logo" src="../assets/icons/thisuser.svg"/>
+		<nav class="navbar">
+			<img class="logo" src="../assets/icons/thisuser.svg"/>
 			<a class="navbar-page" href="../renders.html">
-				<img class="navbar-page-image" src="../assets/icons/renders.svg"/>
-				<p class="navbar-page-text">Renders</p>
+				<img src="../assets/icons/renders.svg"/>
+				<span>Renders</span>
 			</a>
 			<a class="navbar-page" href="../animations.html">
-				<img class="navbar-page-image" src="../assets/icons/animations.svg"/>
-				<p class="navbar-page-text">Animations</p>
+				<img src="../assets/icons/animations.svg"/>
+				<span>Animations</span>
 			</a>
 			<a class="navbar-page" href="../software.html">
-				<img class="navbar-page-image" src="../assets/icons/software.svg"/>
-				<p class="navbar-page-text">Software</p>
+				<img src="../assets/icons/software.svg"/>
+				<span>Software</span>
 			</a>
 			<a class="navbar-page" href="../writing.html">
-				<img class="navbar-page-image" src="../assets/icons/workbooks.svg"/>
-				<p class="navbar-page-text">Writing</p>
+				<img src="../assets/icons/writing.svg"/>
+				<span>Writing</span>
 			</a>
 			<div id="menuButton" onclick="toggleMenu()">
-				<img id="menuButton-image" src="../assets/icons/menu.svg"/>
+				<img src="../assets/icons/menu.svg"/>
 			</div>
-			<div id="navbar-divider"></div>
+			<div class="navbar-divider"></div>
         </nav>
 
 		<div id="menu">
 			<a class="menu-page" href="../renders.html">
-				<img class="menu-page-image" src="../assets/icons/renders.svg"/>
-				<p class="menu-page-text">Renders</p>
+				<img src="../assets/icons/renders.svg"/>
+				<span>Renders</span>
 			</a>
 			<div class="menu-divider"></div>
 			<a class="menu-page" href="../animations.html">
-				<img class="menu-page-image" src="../assets/icons/animations.svg"/>
-				<p class="menu-page-text">Animations</p>
+				<img src="../assets/icons/animations.svg"/>
+				<span>Animations</span>
 			</a>
 			<div class="menu-divider"></div>
 			<a class="menu-page" href="../software.html">
-				<img class="menu-page-image" src="../assets/icons/software.svg"/>
-				<p class="menu-page-text">Software</p>
+				<img src="../assets/icons/software.svg"/>
+				<span>Software</span>
 			</a>
 			<div class="menu-divider"></div>
 			<a class="menu-page" href="../writing.html">
-				<img class="menu-page-image" src="../assets/icons/workbooks.svg"/>
-				<p class="menu-page-text">Writing</p>
+				<img src="../assets/icons/writing.svg"/>
+				<span>Writing</span>
 			</a>
 		</div>
 
 		<div id="content" onclick="hideMenu()">
 
-			<div style="display: flex; flex-direction: column; align-items: center;position: relative;">
+			<div style="display: flex; flex-direction: column; align-items: center; position: relative;">
 
-			<div class="banner" style="background-image: url('../assets/images/writing/eye/eye.png'); opacity: 70%;">
-	            <div class="banner-gradient">
-	            </div>
-	        </div>
+				<div class="banner" style="background-image: url('../assets/images/writing/eye/eye.png'); opacity: 70%;">
+		            <div class="banner-gradient">
+		            </div>
+		        </div>
 
-			<div style="position: absolute;">
+				<div style="position: absolute;">
 
-			<section class="section-top section-bottom">
-				<div class="container" style="max-width: 700px;">
-					<a href="../writing.html">
-						<div class="article-backButton">
-							<img style="width: 16px; filter: invert();" src="../assets/icons/arrow-left.svg"/>
-							<p style="margin-top: auto; margin-bottom: auto; margin-left: 0.6rem;">All workbooks</p>
+					<section class="section-top section-bottom">
+						<div class="container" style="max-width: 700px;">
+							<a href="../writing.html">
+								<div class="article-backButton">
+									<img src="../assets/icons/arrow-left.svg"/>
+									<span>All workbooks</span>
+								</div>
+							</a>
+							<p class="article-title">Rigging an Eye</p>
+							<p class="article-date">24 January 2026</p>
+							<a href="../files/rigged-eye.zip">
+								<div class="article-download">
+									<img src="../assets/icons/maya-blue.svg" />
+									<span>Download project files</span>
+								</div>
+							</a>
+
+							<div class="article-divider"></div>
+
+							<div class="article-section">
+								<p class="article-body">
+									When the original Galaxy Fold landed years ago, it was a clunky, fragile promise of things to come. It took Samsung six years to refine that vision into the Galaxy Z Fold 7, a device that finally felt thin, light, and “normal.”
+									<br><br>
+									Now, here at CES 2026, I’ve just gone hands-on with the new Samsung Galaxy Z TriFold. It promises to be the next great leap forward: a phone that unfolds not just once, but twice, turning into a legitimate 10-inch tablet.
+									<br><br>
+									I must admit, using it feels like holding the future. However, after spending some time with it, I can’t shake the feeling that we’ve taken a massive step backward to get here.
+									<br><br>
+									First, let’s talk about the name. The “TriFold” moniker is a bit of a misnomer. The device doesn’t fold three times; it folds twice, using two hinges to connect three distinct screen panels.
+									<br><br>
+									Unlike the HUAWEI Mate XT, which launched back in 2024 with a screen that wraps around the outside, Samsung has stuck to its guns with a different design philosophy. The TriFold features a standard outer cover display protected by glass and a separate, massive inner display that folds inward. I prefer Samsung’s approach here. It keeps the fragile foldable panel safe when the device is in your pocket, which is essential for something that costs as much as a used car.
+								</p>
+							</div>
+
+							<div class="article-section">
+								<p class="article-header">First Attempt: Quaternions</p>
+								<p class="article-body">
+									To prevent users from destroying that expensive screen, Samsung added a smart software feature. If you try to fold the phone in the wrong direction, the screen flashes a visual warning, and the haptics vibrate with increasing intensity. It’s a smart, easily understandable way to prevent catastrophe.
+									<br><br>
+									If you look at the spec sheet, the Galaxy Z TriFold is remarkably similar to the Galaxy Z Fold 7 that also launched in 2025. Internally, it runs on the same Qualcomm Snapdragon 8 Elite chipset — not the newest Gen 5 variant, but it still is plenty powerful. The camera array is identical as well, featuring the same 200MP primary lens, ultrawide, and telephoto setup found on the Fold 7.
+									<br><br>
+									Where they truly diverge is the battery. The TriFold packs a 5,400mAh battery, which is roughly 23% larger than the cell in the Fold 7. That battery increase sounds great on paper, but we must remember that this battery needs to power a significantly larger display. My gut tells me that any gains in capacity will be negated by the sheer amount of pixels this thing has to push, but we won’t know for sure until we get a review unit we can actually put through testing.
+									<br><br>
+									The TriFold runs One UI 8 based on Android 16. Although Samsung hasn’t added or changed much for the TriFold when compared to other foldables it’s made in the past, it did add two genuinely useful features to take advantage of the extra screen real estate.
+									<br><br>
+									First up is true three-app multitasking. On the Z Fold 7, running three apps at once results in cramped, narrow windows. On the TriFold, you can split the screen into thirds, and each app maintains a standard smartphone aspect ratio. For productivity, this is a game-changer. You can have Slack, Chrome, and YouTube open simultaneously, and they all look and behave exactly as they would on a slab phone. Multitaskers rejoice!
+									<br><br>
+									"On the TriFold, you can split the screen into thirds, and each app maintains a standard smartphone aspect ratio. For productivity, this is a game-changer."
+									<br><br>
+									Another highlight is the ability to run Samsung DeX locally on the device. You don’t need an external monitor; the inner screen is large enough to support a full desktop environment with a taskbar and windowed apps. Technically, this is not exclusive to the TriFold, as Samsung’s newer tablets also have this feature. But having it on a phone is definitely new, and is a true game-changer for folks who want the “pocket PC” we were promised decades ago by sci-fi media.
+									<br><br>
+									DeX is still a niche feature, but for the people who use it, this is an incredible update for usability. Who knows, maybe this will make DeX less niche in the future.
+								</p>
+								<br>
+								<img style="width: 100%;" src="../assets/images/writing/eye/curve.gif" />
+								<p class="article-caption">Animating a simple NURBS circle</p>
+							</div>
+
+							<div class="article-section">
+								<p class="article-header">Second Attempt: Sine and Cosine</p>
+								<p class="article-body">
+									To prevent users from destroying that expensive screen, Samsung added a smart software feature. If you try to fold the phone in the wrong direction, the screen flashes a visual warning, and the haptics vibrate with increasing intensity. It’s a smart, easily understandable way to prevent catastrophe.
+									<br><br>
+									If you look at the spec sheet, the Galaxy Z TriFold is remarkably similar to the Galaxy Z Fold 7 that also launched in 2025. Internally, it runs on the same Qualcomm Snapdragon 8 Elite chipset — not the newest Gen 5 variant, but it still is plenty powerful. The camera array is identical as well, featuring the same 200MP primary lens, ultrawide, and telephoto setup found on the Fold 7.
+									<br><br>
+									Where they truly diverge is the battery. The TriFold packs a 5,400mAh battery, which is roughly 23% larger than the cell in the Fold 7. That battery increase sounds great on paper, but we must remember that this battery needs to power a significantly larger display. My gut tells me that any gains in capacity will be negated by the sheer amount of pixels this thing has to push, but we won’t know for sure until we get a review unit we can actually put through testing.
+									<br><br>
+									The TriFold runs One UI 8 based on Android 16. Although Samsung hasn’t added or changed much for the TriFold when compared to other foldables it’s made in the past, it did add two genuinely useful features to take advantage of the extra screen real estate.
+									<br><br>
+									First up is true three-app multitasking. On the Z Fold 7, running three apps at once results in cramped, narrow windows. On the TriFold, you can split the screen into thirds, and each app maintains a standard smartphone aspect ratio. For productivity, this is a game-changer. You can have Slack, Chrome, and YouTube open simultaneously, and they all look and behave exactly as they would on a slab phone. Multitaskers rejoice!
+									<br><br>
+									"On the TriFold, you can split the screen into thirds, and each app maintains a standard smartphone aspect ratio. For productivity, this is a game-changer."
+									<br><br>
+									Another highlight is the ability to run Samsung DeX locally on the device. You don’t need an external monitor; the inner screen is large enough to support a full desktop environment with a taskbar and windowed apps. Technically, this is not exclusive to the TriFold, as Samsung’s newer tablets also have this feature. But having it on a phone is definitely new, and is a true game-changer for folks who want the “pocket PC” we were promised decades ago by sci-fi media.
+									<br><br>
+									DeX is still a niche feature, but for the people who use it, this is an incredible update for usability. Who knows, maybe this will make DeX less niche in the future.
+								</p>
+								<br>
+								<img style="width: 100%;" src="../assets/images/writing/eye/sliders.gif" />
+								<p class="article-caption">Animating the Iris and Pupil attributes with Proportional Pupil enabled</p>
+								<br>
+								<img style="width: 100%;" src="../assets/images/writing/eye/realFake.png" />
+								<p class="article-caption">The "Physical" highlight is good for physically accurate reflections, while the "Fake" highlight takes on a more artistic approach, with settings for size, blur and position</p>
+								<br>
+								<img style="width: 100%;" src="../assets/images/writing/eye/waitress.png" />
+								<p class="article-caption">Here the eyes feature in a modified version of the waitress rig by whatshisname</p>
+							</div>
+
+							<div class="article-end"></div>
+
 						</div>
-					</a>
-					<p class="article-title">Rigging an Eye</p>
-					<p class="article-date">24 January 2026</p>
-					<a href="files/eye-rigging.zip" style="background-color: #00206040; width: auto; padding: 8px; display: flex; flex-direction: row; margin-bottom: 8px;">
-						<img style="height: 32px;" src="../assets/icons/maya.svg" />
-						<span style="margin-top: auto; margin-bottom: auto;">Download project files</span>
-					</a>
-					<div class="workbook-divider"></div>
+					</section>
 
-
-					<p class="article-body">
-						When the original Galaxy Fold landed years ago, it was a clunky, fragile promise of things to come. It took Samsung six years to refine that vision into the Galaxy Z Fold 7, a device that finally felt thin, light, and “normal.”
-						<br><br>
-						Now, here at CES 2026, I’ve just gone hands-on with the new Samsung Galaxy Z TriFold. It promises to be the next great leap forward: a phone that unfolds not just once, but twice, turning into a legitimate 10-inch tablet.
-						<br><br>
-						I must admit, using it feels like holding the future. However, after spending some time with it, I can’t shake the feeling that we’ve taken a massive step backward to get here.
-						<br><br>
-						First, let’s talk about the name. The “TriFold” moniker is a bit of a misnomer. The device doesn’t fold three times; it folds twice, using two hinges to connect three distinct screen panels.
-						<br><br>
-						Unlike the HUAWEI Mate XT, which launched back in 2024 with a screen that wraps around the outside, Samsung has stuck to its guns with a different design philosophy. The TriFold features a standard outer cover display protected by glass and a separate, massive inner display that folds inward. I prefer Samsung’s approach here. It keeps the fragile foldable panel safe when the device is in your pocket, which is essential for something that costs as much as a used car.
-						<br><br>
-					</p>
-
-					<p class="article-header">First Attempt: Quaternions</p>
-					<p class="article-body">
-						To prevent users from destroying that expensive screen, Samsung added a smart software feature. If you try to fold the phone in the wrong direction, the screen flashes a visual warning, and the haptics vibrate with increasing intensity. It’s a smart, easily understandable way to prevent catastrophe.
-						<br><br>
-						If you look at the spec sheet, the Galaxy Z TriFold is remarkably similar to the Galaxy Z Fold 7 that also launched in 2025. Internally, it runs on the same Qualcomm Snapdragon 8 Elite chipset — not the newest Gen 5 variant, but it still is plenty powerful. The camera array is identical as well, featuring the same 200MP primary lens, ultrawide, and telephoto setup found on the Fold 7.
-						<br><br>
-						Where they truly diverge is the battery. The TriFold packs a 5,400mAh battery, which is roughly 23% larger than the cell in the Fold 7. That battery increase sounds great on paper, but we must remember that this battery needs to power a significantly larger display. My gut tells me that any gains in capacity will be negated by the sheer amount of pixels this thing has to push, but we won’t know for sure until we get a review unit we can actually put through testing.
-						<br><br>
-						The TriFold runs One UI 8 based on Android 16. Although Samsung hasn’t added or changed much for the TriFold when compared to other foldables it’s made in the past, it did add two genuinely useful features to take advantage of the extra screen real estate.
-						<br><br>
-						First up is true three-app multitasking. On the Z Fold 7, running three apps at once results in cramped, narrow windows. On the TriFold, you can split the screen into thirds, and each app maintains a standard smartphone aspect ratio. For productivity, this is a game-changer. You can have Slack, Chrome, and YouTube open simultaneously, and they all look and behave exactly as they would on a slab phone. Multitaskers rejoice!
-						<br><br>
-						"On the TriFold, you can split the screen into thirds, and each app maintains a standard smartphone aspect ratio. For productivity, this is a game-changer."
-						<br><br>
-						Another highlight is the ability to run Samsung DeX locally on the device. You don’t need an external monitor; the inner screen is large enough to support a full desktop environment with a taskbar and windowed apps. Technically, this is not exclusive to the TriFold, as Samsung’s newer tablets also have this feature. But having it on a phone is definitely new, and is a true game-changer for folks who want the “pocket PC” we were promised decades ago by sci-fi media.
-						<br><br>
-						DeX is still a niche feature, but for the people who use it, this is an incredible update for usability. Who knows, maybe this will make DeX less niche in the future.
-						<br><br>
-					</p>
-					<img style="width: 100%;" src="../assets/images/writing/eye/eye01.gif" />
-					<p style="font-size: 0.9rem;">Animating the Iris and Pupil attributes with Proportional Pupil enabled</p>
-					<br><br>
-
-					<p class="article-header">Second Attempt: Sine and Cosine</p>
-					<p class="article-body">
-						To prevent users from destroying that expensive screen, Samsung added a smart software feature. If you try to fold the phone in the wrong direction, the screen flashes a visual warning, and the haptics vibrate with increasing intensity. It’s a smart, easily understandable way to prevent catastrophe.
-						<br><br>
-						If you look at the spec sheet, the Galaxy Z TriFold is remarkably similar to the Galaxy Z Fold 7 that also launched in 2025. Internally, it runs on the same Qualcomm Snapdragon 8 Elite chipset — not the newest Gen 5 variant, but it still is plenty powerful. The camera array is identical as well, featuring the same 200MP primary lens, ultrawide, and telephoto setup found on the Fold 7.
-						<br><br>
-						Where they truly diverge is the battery. The TriFold packs a 5,400mAh battery, which is roughly 23% larger than the cell in the Fold 7. That battery increase sounds great on paper, but we must remember that this battery needs to power a significantly larger display. My gut tells me that any gains in capacity will be negated by the sheer amount of pixels this thing has to push, but we won’t know for sure until we get a review unit we can actually put through testing.
-						<br><br>
-						The TriFold runs One UI 8 based on Android 16. Although Samsung hasn’t added or changed much for the TriFold when compared to other foldables it’s made in the past, it did add two genuinely useful features to take advantage of the extra screen real estate.
-						<br><br>
-						First up is true three-app multitasking. On the Z Fold 7, running three apps at once results in cramped, narrow windows. On the TriFold, you can split the screen into thirds, and each app maintains a standard smartphone aspect ratio. For productivity, this is a game-changer. You can have Slack, Chrome, and YouTube open simultaneously, and they all look and behave exactly as they would on a slab phone. Multitaskers rejoice!
-						<br><br>
-						"On the TriFold, you can split the screen into thirds, and each app maintains a standard smartphone aspect ratio. For productivity, this is a game-changer."
-						<br><br>
-						Another highlight is the ability to run Samsung DeX locally on the device. You don’t need an external monitor; the inner screen is large enough to support a full desktop environment with a taskbar and windowed apps. Technically, this is not exclusive to the TriFold, as Samsung’s newer tablets also have this feature. But having it on a phone is definitely new, and is a true game-changer for folks who want the “pocket PC” we were promised decades ago by sci-fi media.
-						<br><br>
-						DeX is still a niche feature, but for the people who use it, this is an incredible update for usability. Who knows, maybe this will make DeX less niche in the future.
-					</p>
-					<img style="width: 100%;" src="../assets/images/writing/eye/eye02.gif" />
-					<p style="font-size: 0.9rem;">Animating the Iris and Pupil attributes with Proportional Pupil enabled</p>
-					<br><br>
-					<img style="width: 100%;" src="../assets/images/writing/eye/eye03.png" />
-					<p style="font-size: 0.9rem;">The "Physical" highlight is good for physically accurate reflections, while the "Fake" highlight takes on a more artistic approach, with settings for size, blur and position</p>
-					<img style="width: 100%;" src="../writing/waitress.png" />
-					<p style="font-size: 0.9rem;">The "Physical" highlight is good for physically accurate reflections, while the "Fake" highlight takes on a more artistic approach, with settings for size, blur and position</p>
-					<br><br>
-					<div style="width: 8px; height: 8px; background-color: #606060; margin-left: auto; margin-right: auto;"></div>
-			</section>
+				</div>
 
 			</div>
 

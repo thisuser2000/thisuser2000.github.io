@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+	color: #ffffff;
+}
+
+body {
+	background-color: #333a43;
+}
+
+::selection {
+    background: #ffffff30;
+}
+
+.banner-gradient {
+	background: linear-gradient(to bottom, #333a4350, #333a43ff);
+}
+
+.divider {
+	background-color: #ffffff60;
+}
+
+.footer-text {
+	color: #ffffff80;
+}
+
+.card {
+	background-color: #2c313a;
+}
+
+.navbar {
+	background: linear-gradient(to bottom, #525252, #2a2a2a);
+}
+
+.navbar-divider {
+	background-color: #606060;
+}
+
+#menu {
+	background-color: #2b2b2b;
+}
+
+.menu-page,
+.menu-pageCurrent {
+	background-color: #ffffff00;
+}
+
+.menu-page:hover {
+	background-color: #d0d0d020;
+}
+
+.menu-divider {
+	background-color: #4a4a4a;
+}
+
+.modal {
+	background-color: #080808d0;
+}
+
+.modal-content {
+	background: linear-gradient(to bottom,
+		#606060ff 0px,
+		#606060ff 50px,
+		#60606000 51px
+	);
+}
+
+.modal-section1 {
+	background-color: #333333;
+}
+
+.modal-section2 {
+	background-color: #404040;
+}
+
+.modal-button {
+	background-color: #ffffff20;
+}
+
+.modal-button:hover {
+	background-color: #ffffff40;
+}
+
+.slideshow {
+	border: 3px solid #101010;
+}
+
+.slideshow-counter {
+	background-color: #101010;
+}
