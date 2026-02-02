@@ -48,6 +48,8 @@ html {
 	text-decoration: none;
 	border-style: none;
 	outline-style: none;
+	transition-duration: 0.08s;
+	transition-timing-function: ease-out;
 }
 
 body {

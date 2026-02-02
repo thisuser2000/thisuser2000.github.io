@@ -28,22 +28,25 @@ body {
 .article-backButton {
 	display: inline-flex;
 	background-color: #ffffff40;
-	padding: 8px 12px;
-	border-radius: 8px;
+	padding: 7px 14px;
+	border-radius: 6px;
 	margin-bottom: 2.5rem;
-}
-
-.article-backButton:hover {
-	background-color: #ffffff80;
+	box-shadow: 0px 1px 1px #00000010;
+	transition-property: background-color;
 }
 
 .article-backButton > img {
-	width: 20px;
+	width: 18px;
 }
 
 .article-backButton > span {
+	font-size: 15px;
 	margin: auto;
-	margin-left: 12px;
+	margin-left: 10px;
+}
+
+.article-backButton:hover {
+	background-color: #ffffff70;
 }
 
 .article-download {
@@ -87,7 +90,7 @@ body {
 }
 
 .article-section {
-	margin-bottom: 4rem;
+	margin-bottom: 6rem;
 }
 
 .article-header {
@@ -101,10 +104,17 @@ body {
 	font-size: 18px;
 }
 
+.article-image {
+	width: 100%;
+	margin-top: 1rem;
+}
+
 .article-caption {
 	font-family: "Canva", sans-serif;
 	font-size: 14px;
 	margin-bottom: 8px;
+	line-height: 1.5;
+	opacity: 75%;
 }
 
 .article-end {
