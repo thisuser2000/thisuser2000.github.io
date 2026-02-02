@@ -61,6 +61,10 @@ body {
 	color: #3a79c2;
 }
 
+.article-download:hover > span {
+	text-decoration: underline;
+}
+
 .article-title {
     font-family: "Canva", sans-serif;
 	font-size: 28px;
