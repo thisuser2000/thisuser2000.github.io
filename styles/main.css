@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root {
-	--cardShadow1: 0rem 0.07rem 0.07rem #00000090;
-	--cardShadow2: 0rem 0.13rem 1rem #00000090;
+	--cardShadow1: 0px 1px 1px #000000b0;
+	--cardShadow2: 0px 3px 12px #00000090;
 }
 
 @font-face {
@@ -48,8 +48,6 @@ html {
 	text-decoration: none;
 	border-style: none;
 	outline-style: none;
-	transition-duration: 0.08s;
-	transition-timing-function: ease-out;
 }
 
 body {
@@ -159,6 +157,7 @@ section {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	background-color: #69727b;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

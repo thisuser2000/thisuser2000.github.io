@@ -68,6 +68,7 @@
 	margin: auto;
 	margin-right: 12px;
 	cursor: pointer;
+	user-select: none;
 	transition: opacity 0.05s ease-out;
 }
 
@@ -77,6 +78,7 @@
 
 #menuButton > img {
 	margin: auto;
+	user-select: none;
 	width: 32px;
 }
 

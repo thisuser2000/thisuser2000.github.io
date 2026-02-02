@@ -3,7 +3,8 @@ const modal = document.getElementById("art-modal");
 const image   = modal.querySelector(".slideshow-feature");
 const left    = modal.querySelector(".slideshow-left");
 const right   = modal.querySelector(".slideshow-right");
-const counter = modal.querySelector(".slideshow-ID");
+const counter = modal.querySelector(".slideshow-counter");
+const counterText = modal.querySelector(".slideshow-ID");
 
 const titleEl = modal.querySelector("#modal-title");
 const dateEl  = modal.querySelector("#modal-date");
@@ -16,7 +17,7 @@ let base = "";
 
 function updateImage() {
 	image.src = `${base}-${current}.webp`;
-	counter.textContent = `${current}/${total}`;
+	counterText.textContent = `${current}/${total}`;
 
 	left.style.visibility  = current === 1     ? "hidden" : "visible";
 	right.style.visibility = current === total ? "hidden" : "visible";
@@ -73,6 +74,7 @@ modal.addEventListener("show.bs.modal", event => {
 	const visibility = total === 1 ? "hidden" : "visible";
 	left.style.visibility  = visibility;
 	right.style.visibility = visibility;
+	counter.style.visibility = visibility;
 
 	updateImage();
 

@@ -71,62 +71,80 @@
 	            </div>
 	        </div>
 
+
+			<!-- Characters -->
 			<section class="section-top section-bottom">
 	            <div class="container">
 					<p class="section-title">Finals</p>
 					<div class="divider"></div>
 					<div class="grid">
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Miscellaneous" style="background-image: url('assets/images/animations/miscellaneous/miscellaneous-1.webp');">
-							<div class="card-glare"></div>
-							<div class="card-gradient">
-								<p class="card-text">Miscellaneous</p>
-							</div>
-						</div>
+						<div class="card"
+							data-project="sole"
+							data-bs-toggle="modal"
+							data-bs-target="#art-modal"
+							style="background-image:url('assets/images/animations/sole/sole-1.webp')">
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Sole" style="background-image: url('assets/images/animations/sole/sole-1.webp');">
 							<div class="card-glare"></div>
 							<div class="card-gradient">
 								<p class="card-text">My Name is Sole Letafu</p>
 							</div>
 						</div>
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Loops" style="background-image: url('assets/images/animations/loops/loops-1.webp');">
+						<div class="card"
+							data-project="loops"
+							data-bs-toggle="modal"
+							data-bs-target="#art-modal"
+							style="background-image:url('assets/images/animations/loops/loops-1.webp')">
+
 							<div class="card-glare"></div>
 							<div class="card-gradient">
 								<p class="card-text">Thematic Loops</p>
 							</div>
 						</div>
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Untitled" style="background-image: url('assets/images/animations/untitled/untitled-1.webp');">
-							<div class="card-glare"></div>
-							<div class="card-gradient">
-								<p class="card-text">Untitled</p>
-							</div>
-						</div>
+						<div class="card"
+							data-project="principles"
+							data-bs-toggle="modal"
+							data-bs-target="#art-modal"
+							style="background-image:url('assets/images/animations/principles/principles-1.webp')">
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Principles" style="background-image: url('assets/images/animations/principles/principles-1.webp');">
 							<div class="card-glare"></div>
 							<div class="card-gradient">
 								<p class="card-text">Principles of Animation</p>
 							</div>
 						</div>
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-PartyRoom" style="background-image: url('assets/images/animations/partyroom/partyroom-1.webp');">
+						<div class="card"
+							data-project="party"
+							data-bs-toggle="modal"
+							data-bs-target="#art-modal"
+							style="background-image:url('assets/images/animations/party/party-1.webp')">
+
 							<div class="card-glare"></div>
 							<div class="card-gradient">
 								<p class="card-text">The Party Room</p>
 							</div>
 						</div>
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-PlayStation" style="background-image: url('assets/images/animations/playstation/playstation-1.webp');">
+						<div class="card"
+							data-project="playstation"
+							data-bs-toggle="modal"
+							data-bs-target="#art-modal"
+							style="background-image:url('assets/images/animations/playstation/playstation-1.webp')">
+
 							<div class="card-glare"></div>
 							<div class="card-gradient">
 								<p class="card-text">PlayStation Commercial</p>
 							</div>
 						</div>
 
-						<div class="card" data-bs-toggle="modal" data-bs-target="#modal-Toilet" style="background-image: url('assets/images/animations/toilet/toilet-1.webp');">
+						<div class="card"
+							data-project="toilet"
+							data-bs-toggle="modal"
+							data-bs-target="#art-modal"
+							style="background-image:url('assets/images/animations/toilet/toilet-1.webp')">
+
 							<div class="card-glare"></div>
 							<div class="card-gradient">
 								<p class="card-text">The Toilet Thing</p>
@@ -139,344 +157,41 @@
 
 		</div>
 
-
-
-		<div class="modal fade" id="modal-Miscellaneous" tabindex="-1">
+		<div class="modal fade" id="art-modal" tabindex="-1">
 			<div class="modal-dialog standard-dialog">
 				<div class="modal-content">
 					<div class="modal-section1">
-						<p class="modal-title">Miscellaneous</p>
-						<p class="modal-subtitle">August 2022</p>
-						<div class="modal-images">
-							<img class="modal-images-feature" src="assets/images/animations/miscellaneous/miscellaneous-1.webp"
-							data-base="assets/images/animations/miscellaneous/miscellaneous" data-total="1"/>
-							<div class="modal-images-overlay">
-								<div class="modal-images-gradient1">
-									<img class="modal-images-icon" style="margin-left: 1rem;" src="assets/icons/caret-left.svg"/>
+						<h1 id="modal-title"></h1>
+						<h2 id="modal-date"></h2>
+						<div class="slideshow">
+							<img class="slideshow-feature" id="modal-image">
+							<div class="slideshow-overlay">
+								<div class="slideshow-left">
+									<img src="assets/icons/caret-left.svg"/>
 								</div>
-								<div class="modal-images-gradient2">
-									<img class="modal-images-icon" style="margin-right: 1rem;" src="assets/icons/caret-right.svg"/>
+								<div class="slideshow-right">
+									<img src="assets/icons/caret-right.svg"/>
 								</div>
 							</div>
 							<div class="slideshow-counter">
-								<p class="slideshow-ID"/>
+								<p class="slideshow-ID"></p>
 							</div>
 						</div>
 					</div>
+
 					<div class="modal-section2">
-						<p class="modal-header">ABOUT THIS PIECE</p>
-						<div class="modal-description">
-							<p>
-								Description coming soon
-								<br><br>
-							</p>
-							<a class="button" href="https://www.youtube.com/watch?v=IZmsNpDnRQo" target="_blank">
-								<img class="button-icon" src="assets/icons/youtube.svg"/>
-								<div class="button-text">
-									<p class="button-text1">Watch on YouTube</p>
-								</div>
-							</a>
-						</div>
+						<h3>ABOUT THIS PIECE</h3>
+						<div class="modal-description" id="modal-description"></div>
 					</div>
+
 				</div>
 			</div>
 		</div>
 
-		<div class="modal fade" id="modal-Sole" tabindex="-1">
-            <div class="modal-dialog standard-dialog">
-                <div class="modal-content">
-					<div class="modal-section1">
-						<p class="modal-title">My Name is Sole Letafu</p>
-                        <p class="modal-subtitle">April 2022</p>
-						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/images/animations/sole/sole-1.webp"
-							data-base="assets/images/animations/sole/sole" data-total="3"/>
-							<div class="modal-images-overlay">
-								<div class="modal-images-gradient1">
-									<img class="modal-images-icon" style="margin-left: 1rem;" src="assets/icons/caret-left.svg"/>
-								</div>
-								<div class="modal-images-gradient2">
-									<img class="modal-images-icon" style="margin-right: 1rem;" src="assets/icons/caret-right.svg"/>
-								</div>
-							</div>
-							<div class="slideshow-counter">
-								<p class="slideshow-ID"/>
-							</div>
-						</div>
-                    </div>
-					<div class="modal-section2">
-                        <p class="modal-header">ABOUT THIS PIECE</p>
-						<div class="modal-description">
-                            <p>
-								While learning photogrammetry, I took several photos of Dylan but didn't tell him what I planned to do with them.
-								<br><br>
-								I brought the images into RealityCapture, then unwrapped the texture and applied it to the Dylan V1 model. After some basic facial rigging involving blendshapes, I synced this animation to a voice clip and showed the result to the class.
-								<br><br>
-								The resemblance was incredible, but I don't think this model was blushing enough.
-								<br><br>
-							</p>
-							<a class="button" href="https://www.youtube.com/watch?v=r20PlEDHNn4" target="_blank">
-								<img class="button-icon" src="assets/icons/youtube.svg"/>
-								<div class="button-text">
-									<p class="button-text1">Watch on YouTube</p>
-								</div>
-							</a>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-		<div class="modal fade" id="modal-Loops" tabindex="-1">
-            <div class="modal-dialog standard-dialog">
-                <div class="modal-content">
-					<div class="modal-section1">
-						<p class="modal-title">Thematic Loops</p>
-                        <p class="modal-subtitle">November 2021</p>
-						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/images/animations/loops/loops-1.webp"
-							data-base="assets/images/animations/loops/loops" data-total="1"/>
-							<div class="modal-images-overlay">
-								<div class="modal-images-gradient1">
-									<img class="modal-images-icon" style="margin-left: 1rem;" src="assets/icons/caret-left.svg"/>
-								</div>
-								<div class="modal-images-gradient2">
-									<img class="modal-images-icon" style="margin-right: 1rem;" src="assets/icons/caret-right.svg"/>
-								</div>
-							</div>
-							<div class="slideshow-counter">
-								<p class="slideshow-ID"/>
-							</div>
-						</div>
-                    </div>
-					<div class="modal-section2">
-                        <p class="modal-header">ABOUT THIS PIECE</p>
-						<div class="modal-description">
-                            <p>
-								This project involved creating a series of nine looping animations that share a relaxing theme. The assets were created in Adobe Illustrator, then manipulated in After Effects.
-								<br><br>
-								The assignment emphasised the importance of iteration, with draft animations being required for submission first, before moving onto refined versions later.
-								<br><br>
-							</p>
-							<a class="button" href="https://www.youtube.com/watch?v=3_WHB53nkwo" target="_blank">
-								<img class="button-icon" src="assets/icons/youtube.svg"/>
-								<div class="button-text">
-									<p class="button-text1">Watch on YouTube</p>
-								</div>
-							</a>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-		<div class="modal fade" id="modal-Untitled" tabindex="-1">
-            <div class="modal-dialog standard-dialog">
-                <div class="modal-content">
-					<div class="modal-section1">
-						<p class="modal-title">Untitled</p>
-                        <p class="modal-subtitle">June 2021</p>
-						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/images/animations/untitled/untitled-1.webp"
-							data-base="assets/images/animations/untitled/untitled" data-total="1"/>
-							<div class="modal-images-overlay">
-								<div class="modal-images-gradient1">
-									<img class="modal-images-icon" style="margin-left: 1rem;" src="assets/icons/caret-left.svg"/>
-								</div>
-								<div class="modal-images-gradient2">
-									<img class="modal-images-icon" style="margin-right: 1rem;" src="assets/icons/caret-right.svg"/>
-								</div>
-							</div>
-							<div class="slideshow-counter">
-								<p class="slideshow-ID"/>
-							</div>
-						</div>
-                    </div>
-					<div class="modal-section2">
-                        <p class="modal-header">ABOUT THIS PIECE</p>
-						<div class="modal-description">
-                            <p>
-								Description coming soon
-								<br><br>
-							</p>
-							<a class="button" href="https://www.youtube.com/watch?v=KmsfOZ28Xt8" target="_blank">
-								<img class="button-icon" src="assets/icons/youtube.svg"/>
-								<div class="button-text">
-									<p class="button-text1">Watch on YouTube</p>
-								</div>
-							</a>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-		<div class="modal fade" id="modal-Principles" tabindex="-1">
-            <div class="modal-dialog standard-dialog">
-                <div class="modal-content">
-					<div class="modal-section1">
-						<p class="modal-title">Principles of Animation</p>
-                        <p class="modal-subtitle">September 2018</p>
-						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/images/animations/principles/principles-1.webp"
-							data-base="assets/images/animations/principles/principles" data-total="1"/>
-							<div class="modal-images-overlay">
-								<div class="modal-images-gradient1">
-									<img class="modal-images-icon" style="margin-left: 1rem;" src="assets/icons/caret-left.svg"/>
-								</div>
-								<div class="modal-images-gradient2">
-									<img class="modal-images-icon" style="margin-right: 1rem;" src="assets/icons/caret-right.svg"/>
-								</div>
-							</div>
-							<div class="slideshow-counter">
-								<p class="slideshow-ID"/>
-							</div>
-						</div>
-                    </div>
-					<div class="modal-section2">
-                        <p class="modal-header">ABOUT THIS PIECE</p>
-						<div class="modal-description">
-                            <p>
-								Similar to the PlayStation commercial, this assignment required the use of the principles of animation, this time showing the adventures of a ball in a 3D setting.
-								<br><br>
-							</p>
-							<a class="button" href="https://www.youtube.com/watch?v=UrVMCVEiAb8" target="_blank">
-								<img class="button-icon" src="assets/icons/youtube.svg"/>
-								<div class="button-text">
-									<p class="button-text1">Watch on YouTube</p>
-								</div>
-							</a>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-		<div class="modal fade" id="modal-PartyRoom" tabindex="-1">
-            <div class="modal-dialog standard-dialog">
-                <div class="modal-content">
-					<div class="modal-section1">
-						<p class="modal-title">The Party Room</p>
-                        <p class="modal-subtitle">December 2017</p>
-						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/images/animations/partyroom/partyroom-1.webp"
-							data-base="assets/images/animations/partyroom/partyroom" data-total="1"/>
-							<div class="modal-images-overlay">
-								<div class="modal-images-gradient1">
-									<img class="modal-images-icon" style="margin-left: 1rem;" src="assets/icons/caret-left.svg"/>
-								</div>
-								<div class="modal-images-gradient2">
-									<img class="modal-images-icon" style="margin-right: 1rem;" src="assets/icons/caret-right.svg"/>
-								</div>
-							</div>
-							<div class="slideshow-counter">
-								<p class="slideshow-ID"/>
-							</div>
-						</div>
-                    </div>
-					<div class="modal-section2">
-                        <p class="modal-header">ABOUT THIS PIECE</p>
-						<div class="modal-description">
-                            <p>
-								After traversing a seemingly endless field, the guardian stumbles upon a room set up for a party that never happened. What's in the box?
-								<br><br>
-							</p>
-							<a class="button" href="https://www.youtube.com/watch?v=B0ZWTqtqD_4" target="_blank">
-								<img class="button-icon" src="assets/icons/youtube.svg"/>
-								<div class="button-text">
-									<p class="button-text1">Watch on YouTube</p>
-								</div>
-							</a>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-		<div class="modal fade" id="modal-PlayStation" tabindex="-1">
-            <div class="modal-dialog standard-dialog">
-                <div class="modal-content">
-					<div class="modal-section1">
-						<p class="modal-title">PlayStation Commercial</p>
-                        <p class="modal-subtitle">September 2017</p>
-						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/images/animations/playstation/playstation-1.webp"
-							data-base="assets/images/animations/playstation/playstation" data-total="1"/>
-							<div class="modal-images-overlay">
-								<div class="modal-images-gradient1">
-									<img class="modal-images-icon" style="margin-left: 1rem;" src="assets/icons/caret-left.svg"/>
-								</div>
-								<div class="modal-images-gradient2">
-									<img class="modal-images-icon" style="margin-right: 1rem;" src="assets/icons/caret-right.svg"/>
-								</div>
-							</div>
-							<div class="slideshow-counter">
-								<p class="slideshow-ID"/>
-							</div>
-						</div>
-                    </div>
-					<div class="modal-section2">
-                        <p class="modal-header">ABOUT THIS PIECE</p>
-						<div class="modal-description">
-                            <p>
-								This assignment required using After Effects to promote a product with as many of the principles of animation as possible.
-								<br><br>
-							</p>
-							<a class="button" href="https://www.youtube.com/watch?v=ncdvE0OR1q0" target="_blank">
-								<img class="button-icon" src="assets/icons/youtube.svg"/>
-								<div class="button-text">
-									<p class="button-text1">Watch on YouTube</p>
-								</div>
-							</a>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-		<div class="modal fade" id="modal-Toilet" tabindex="-1">
-            <div class="modal-dialog standard-dialog">
-                <div class="modal-content">
-					<div class="modal-section1">
-						<p class="modal-title">The Toilet Thing</p>
-                        <p class="modal-subtitle">July 2017</p>
-						<div class="modal-images">
-                        	<img class="modal-images-feature" src="assets/images/animations/toilet/toilet-1.webp"
-							data-base="assets/images/animations/toilet/toilet" data-total="1"/>
-							<div class="modal-images-overlay">
-								<div class="modal-images-gradient1">
-									<img class="modal-images-icon" style="margin-left: 1rem;" src="assets/icons/caret-left.svg"/>
-								</div>
-								<div class="modal-images-gradient2">
-									<img class="modal-images-icon" style="margin-right: 1rem;" src="assets/icons/caret-right.svg"/>
-								</div>
-							</div>
-							<div class="slideshow-counter">
-								<p class="slideshow-ID"/>
-							</div>
-						</div>
-                    </div>
-					<div class="modal-section2">
-                        <p class="modal-header">ABOUT THIS PIECE</p>
-						<div class="modal-description">
-                            <p>
-								This assignment involved animating a blob character with limited features to a short voice clip. Given that the character doesn't have a mouth, the focus was on eye movements and body language to communicate the same idea.
-								<br><br>
-							</p>
-							<a class="button" href="https://www.youtube.com/watch?v=9i6SzYY8sHU" target="_blank">
-								<img class="button-icon" src="assets/icons/youtube.svg"/>
-								<div class="button-text">
-									<p class="button-text1">Watch on YouTube</p>
-								</div>
-							</a>
-						</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
 		<script src="scripts/bootstrap.bundle.min.js"></script>
 		<script src="scripts/navbar.js"></script>
+		<script src="scripts/modal.js"></script>
+		<script src="scripts/project-data.js"></script>
 
     </body>
 </html>

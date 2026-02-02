@@ -230,7 +230,7 @@ const PROJECTS = {
 			{
 				icon: "maya",
 				text: "Download project files",
-				href: "files/steamroom.zip"
+				href: "files/energydrink.zip"
 			}
 		]
 	},
@@ -247,13 +247,15 @@ const PROJECTS = {
 		description: `
 			This simple prop was made in just 2 hours. It was an experiment in fine-tuning specular and subsurface settings to match how it would look in the real world. If you look closely you can see the bottom of the lid is darker than the top, as it is covering the bottle and allowing less light to pass through.
 			<br><br>
+			One issue I discovered later was that the poor placement of edge loops to support the raised squares led to inconsistent shading, resulting in the cylindrical shape looking more like a rounded octagon.
+			<br><br>
 		`,
 
 		downloads: [
 			{
 				icon: "maya",
 				text: "Download project files",
-				href: "files/steamroom.zip"
+				href: "files/chocolatemilk.zip"
 			}
 		]
 	},
@@ -276,8 +278,207 @@ const PROJECTS = {
 			{
 				icon: "maya",
 				text: "Download project files",
-				href: "files/steamroom.zip"
+				href: "files/harrypotter.zip"
 			}
 		]
+	},
+
+	sole: {
+		title: "My Name is Sole Letafu",
+		date: "April 2022",
+
+		images: {
+			base: "assets/images/animations/sole/sole",
+			total: 3
+		},
+
+		description: `
+		While learning photogrammetry, I took several photos of Dylan but didn't tell him what I planned to do with them.
+		<br><br>
+		I brought the images into RealityCapture, then unwrapped the texture and applied it to the Dylan V1 model. After some basic facial rigging involving blendshapes, I synced this animation to a voice clip and showed the result to the class.
+		<br><br>
+		The resemblance was incredible, but I don't think this model was blushing enough.
+		<br><br>
+		`,
+
+		downloads: []
+	},
+
+	loops: {
+		title: "Thematic Loops",
+		date: "November 2021",
+
+		images: {
+			base: "assets/images/animations/loops/loops",
+			total: 1
+		},
+
+		description: `
+		This project involved creating a series of nine looping animations that share a relaxing theme. The assets were created in Adobe Illustrator, then manipulated in After Effects.
+		<br><br>
+		The assignment emphasised the importance of iteration, with draft animations being required for submission first, before moving onto refined versions later.
+		<br><br>
+		`,
+
+		downloads: []
+	},
+
+	principles: {
+		title: "Principles of Animation",
+		date: "September 2018",
+
+		images: {
+			base: "assets/images/animations/principles/principles",
+			total: 1
+		},
+
+		description: `
+			Similar to the PlayStation commercial, this assignment required the use of the principles of animation, this time showing the adventures of a ball in a 3D setting.
+			<br><br>
+		`,
+
+		downloads: []
+	},
+
+	party: {
+		title: "The Party Room",
+		date: "December 2017",
+
+		images: {
+			base: "assets/images/animations/party/party",
+			total: 1
+		},
+
+		description: `
+			After traversing a seemingly endless field, the guardian stumbles upon a room set up for a party that never happened. What's in the box?
+			<br><br>
+		`,
+
+		downloads: []
+	},
+
+	playstation: {
+		title: "PlayStation Commercial",
+		date: "September 2017",
+
+		images: {
+			base: "assets/images/animations/playstation/playstation",
+			total: 1
+		},
+
+		description: `
+			This assignment required using After Effects to promote a product with as many of the principles of animation as possible.
+			<br><br>
+		`,
+
+		downloads: []
+	},
+
+	toilet: {
+		title: "The Toilet Thing",
+		date: "July 2017",
+
+		images: {
+			base: "assets/images/animations/toilet/toilet",
+			total: 1
+		},
+
+		description: `
+			This assignment involved animating a blob character with limited features to a short voice clip. Given that the character doesn't have a mouth, the focus was on eye movements and body language to communicate the same idea.
+			<br><br>
+		`,
+
+		downloads: []
+	},
+
+	game: {
+		title: "Major Projects Game",
+		date: "June 2022",
+
+		images: {
+			base: "assets/images/software/game/game",
+			total: 8
+		},
+
+		description: `
+			My major project for semester 1 was a video game and console reminiscent of the Nintendo DS. The game was designed as an exploration experience, featuring virtual exhibits of my work. For example, photography work would appear in a gallery, while the Cyberthug Core would be life-sized with ambient sound and lighting.
+			<br><br>
+			I aimed for a retro visual style, creating lighting and shadows manually with soft brushes and gradients rather than relying on modern pre-baked or real-time lighting systems.
+			<br><br>
+			I had planned to build the console using a Raspberry Pi, combining laser cutting and 3D printing for the casing. The operating system would be a stripped-down version of Ubuntu with a custom desktop environment, however poor planning and high ambitions meant the project was left half-finished.
+			<br><br>
+		`,
+
+		downloads: []
+	},
+
+	whitireia: {
+		title: "Whitireia Assistant",
+		date: "May 2020",
+
+		images: {
+			base: "assets/images/software/whitireia/whitireia",
+			total: 3
+		},
+
+		description: `
+			Similar to the Yoobee Timetable app, this was an experiment in designing pleasant mobile user interfaces. The overall style of this one is cleaner, with more thought put into it.
+			<br><br>
+		`,
+
+		downloads: []
+	},
+
+	petscop: {
+		title: "Petscop Classic",
+		date: "January 2019",
+
+		images: {
+			base: "assets/images/software/petscop/petscop",
+			total: 4
+		},
+
+		description: `
+			This unity game is a partial remake of the cryptic webseries Petscop, specifically the scenes involving the house and kidnapping. Refer to episode 11 if you're not sure how to progress.
+			<br><br>
+		`,
+
+		downloads: []
+	},
+
+	yoobee: {
+		title: "Yoobee Timetable",
+		date: "February 2017",
+
+		images: {
+			base: "assets/images/software/yoobee/yoobee",
+			total: 3
+		},
+
+		description: `
+			This app was designed as a fancy way to keep track of classes for the year. I didn't intend to share it publicly, but rather use it as a way to practise UI/UX design. It features a link to the class Facebook group, as well as school contact info and holiday dates.
+			<br><br>
+		`,
+
+		downloads: []
+	},
+
+	finaldrives: {
+		title: "NZ Final Drives",
+		date: "October 2023",
+
+		images: {
+			base: "assets/images/software/finaldrives/finaldrives",
+			total: 3
+		},
+
+		description: `
+			This job involved improving SEO visibility, performance and user-friendliness of NZ Final Drives' website. I found the old one to contain a lot of redundant information, such as the presence of a contact form right next to the company's phone numbers and email address.
+			<br><br>
+			The old website featured a products page where customers could search for parts, but ultimately everything lead to contacting the company for quotes. I figured it was appropriate to reduce everything to a single page, with the product finder moved to a dialog at the top of the page.
+			<br><br>
+		`,
+
+		downloads: []
 	}
 };
