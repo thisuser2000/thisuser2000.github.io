@@ -6,6 +6,7 @@
 	height: 80px;
 	z-index: 100;
 	position: fixed;
+	user-select: none;
 	box-shadow: 0rem 0.1rem 0.6rem #00000088;
 }
 
