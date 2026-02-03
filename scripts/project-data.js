@@ -412,7 +412,13 @@ const PROJECTS = {
 			<br><br>
 		`,
 
-		downloads: []
+		downloads: [
+			{
+				icon: "windows",
+				text: "Download for Windows",
+				href: "files/majorprojects-windows.zip"
+			}
+		]
 	},
 
 	whitireia: {
@@ -429,7 +435,13 @@ const PROJECTS = {
 			<br><br>
 		`,
 
-		downloads: []
+		downloads: [
+			{
+				icon: "android",
+				text: "Download for Android",
+				href: "files/whitireia-assistant.apk"
+			}
+		]
 	},
 
 	petscop: {
@@ -446,7 +458,13 @@ const PROJECTS = {
 			<br><br>
 		`,
 
-		downloads: []
+		downloads: [
+			{
+				icon: "android",
+				text: "Download for Android",
+				href: "files/petscop-classic.apk"
+			}
+		]
 	},
 
 	yoobee: {
@@ -463,7 +481,13 @@ const PROJECTS = {
 			<br><br>
 		`,
 
-		downloads: []
+		downloads: [
+			{
+				icon: "android",
+				text: "Download for Android",
+				href: "files/yoobee-timetable.apk"
+			}
+		]
 	},
 
 	finaldrives: {
@@ -482,6 +506,17 @@ const PROJECTS = {
 			<br><br>
 		`,
 
-		downloads: []
+		downloads: [
+			{
+				icon: "website",
+				text: "Visit new website",
+				href: "https://nzfinaldrives1101.github.io/"
+			},
+			{
+				icon: "website",
+				text: "Visit old website",
+				href: "https://nzfinaldrives.co.nz/"
+			}
+		]
 	}
 };

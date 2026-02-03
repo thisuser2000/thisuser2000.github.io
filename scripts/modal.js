@@ -57,7 +57,7 @@ modal.addEventListener("show.bs.modal", event => {
 
 	project.downloads.forEach(d => {
 		descEl.insertAdjacentHTML("beforeend", `
-			<a class="modal-button" href="${d.href}">
+			<a class="modal-button" target="_blank" href="${d.href}">
 				<img src="assets/icons/${d.icon}.svg"/>
 				<p>${d.text}</p>
 			</a>

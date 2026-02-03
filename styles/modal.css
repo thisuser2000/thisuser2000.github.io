@@ -146,6 +146,7 @@
 }
 
 .modal-button img {
+	width: 26px;
 	filter: invert();
 }
 
