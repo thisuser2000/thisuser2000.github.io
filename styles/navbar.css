@@ -106,7 +106,8 @@
 	z-index: 50;
 	position: fixed;
 	overflow: hidden;
-	transition: height 0.17s cubic-bezier(.17,.12,.37,.97);
+	user-select: none;
+	transition: height 0.13s cubic-bezier(.17,.12,.37,.97);
 }
 
 .menu-page,
@@ -138,7 +139,7 @@
 .menu-pageCurrent > span {
 	font-family: "Open Sans Semibold";
 	line-height: 30px;
-	margin-left: 12px;
+	margin-left: 14px;
 	color: #ffffff;
 	opacity: 100%;
 	user-select: none;

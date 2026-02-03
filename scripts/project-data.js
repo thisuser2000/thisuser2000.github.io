@@ -14,6 +14,8 @@ const PROJECTS = {
 			<br><br>
 			I used Substance Painter for most of the texturing instead of Photoshop, which allowed me to get a realtime preview of how the model would look. The ears are much better, with the edge flow correctly following the structure, whereas with Dylan V2 they were very primitive and oddly-shaped.
 			<br><br>
+			See if you can guess which Chris this is meant to be!
+			<br><br>
 		`,
 
 		downloads: []
@@ -106,6 +108,7 @@ const PROJECTS = {
 
 		description: `
 			The war memorial located in the Wellington CBD seemed like an interesting place to recreate. I tried to worry less about getting the measurements exactly right, and focus more on the bigger picture. The horse statue in the foreground was created with photogrammetry, while everything else was modelled by hand.
+			<br><br>
 		`,
 
 		downloads: []
@@ -121,7 +124,7 @@ const PROJECTS = {
 		},
 
 		description: `
-			I try to achieve something new with each project, and this cluttered bedroom seemed like the perfect opportunity to go all in with the modelling. By establishing the layout of the camera and placeholder objects first, I was able to focus solely on what would be visible in the final render, and prioritize level-of-detail.
+			I try to achieve something new with every project, and this cluttered bedroom seemed like the perfect opportunity to go all in with the modelling. By establishing the layout of the camera and placeholder objects first, I was able to focus solely on what would be visible in the final render, and prioritize level-of-detail.
 			<br><br>
 		`,
 
@@ -165,7 +168,7 @@ const PROJECTS = {
 		description: `
 			After seeing how well Mount Victoria turned out, I decided to recreate a more convenient location. I took a different approach this time, taking note of the dimensions of the scene with a tape measure. The scene extends outside, revealing a carpark and alley.
 			<br><br>
-			It was interesting (and rather disorienting) to see the project develop as most of the modelling was done in that same room. I had planned to use it for a short film or virtual reality experience, or maybe as a “meta” level in the major projects game where the player would encounter me working on the game.
+			It was interesting (and rather disorienting) to see the project develop as most of the modelling was done in that same room, on that workbench in the corner. I had planned to use it for a short film or virtual reality experience, or maybe as a “meta” level in the major projects game where the player would encounter me working on the game.
 			<br><br>
 		`,
 
@@ -182,7 +185,7 @@ const PROJECTS = {
 		},
 
 		description: `
-			This remake of a real location was made using large-scale photogrammetry and involved taking over 1,000 photos. Using the generated model for reference, I then manually recreated everything with clean geometry.
+			This remake of a real location was made using large-scale photogrammetry and involved taking over 1,000 photos. Using the generated model as reference, I then manually recreated everything with clean geometry.
 			<br><br>
 			The grass was made using XGen, while the bark was faked using a simple greyscale displacement map converted from the original texture.
 			<br><br>
@@ -439,7 +442,7 @@ const PROJECTS = {
 		},
 
 		description: `
-			This unity game is a partial remake of the cryptic webseries Petscop, specifically the scenes involving the house and kidnapping. Refer to episode 11 if you're not sure how to progress.
+			This Unity game is a partial remake of the cryptic webseries Petscop, specifically the scenes involving the house and kidnapping. Refer to episode 11 if you're not sure how to progress.
 			<br><br>
 		`,
 
@@ -473,9 +476,9 @@ const PROJECTS = {
 		},
 
 		description: `
-			This job involved improving SEO visibility, performance and user-friendliness of NZ Final Drives' website. I found the old one to contain a lot of redundant information, such as the presence of a contact form right next to the company's phone numbers and email address.
+			This was a freelance job that involved improving SEO visibility, performance and user-friendliness of NZ Final Drives' website. I noticed the old one contained a lot of redundant information, such as the presence of a contact form right next to the company's phone numbers and email address.
 			<br><br>
-			The old website featured a products page where customers could search for parts, but ultimately everything lead to contacting the company for quotes. I figured it was appropriate to reduce everything to a single page, with the product finder moved to a dialog at the top of the page.
+			The old website featured a products page where customers could search for parts, but ultimately everything lead to contacting the company for quotes. I figured it was appropriate to streamline everything to a single page, with the product finder moved to a dialog at the top of the page.
 			<br><br>
 		`,
 

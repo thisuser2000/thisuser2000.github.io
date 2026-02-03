@@ -32,16 +32,18 @@ body {
 	border-radius: 6px;
 	margin-bottom: 2.5rem;
 	box-shadow: 0px 1px 1px #00000010;
+	user-select: none;
 	transition: background-color 0.08s ease-out;
 }
 
 .article-backButton > img {
-	width: 18px;
+	width: 14px;
 }
 
 .article-backButton > span {
 	font-size: 15px;
 	margin: auto;
+	color: #404040;
 	margin-left: 10px;
 }
 
@@ -51,6 +53,7 @@ body {
 
 .article-download {
 	display: inline-flex;
+	user-select: none;
 }
 
 .article-download > img {
@@ -84,9 +87,9 @@ body {
 .article-divider {
 	width: 100%;
 	height: 1px;
-	margin-top: 1rem;
+	margin-top: 2rem;
 	margin-bottom: 2.5rem;
-	background-color: #a0a0a0;
+	background-color: #a0a0a080;
 }
 
 .article-section {
