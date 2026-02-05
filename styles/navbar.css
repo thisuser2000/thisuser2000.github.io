@@ -108,7 +108,7 @@
 	position: fixed;
 	overflow: hidden;
 	user-select: none;
-	transition: height 0.13s cubic-bezier(.17,.12,.37,.97);
+	transition: height 0.18s cubic-bezier(.17,.12,.37,.97);
 }
 
 .menu-page,

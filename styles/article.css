@@ -33,7 +33,6 @@ body {
 	margin-bottom: 2.5rem;
 	box-shadow: 0px 1px 1px #00000010;
 	user-select: none;
-	transition: background-color 0.08s ease-out;
 }
 
 .article-backButton > img {

@@ -106,7 +106,7 @@ section {
 	padding: 0.4rem;
 	display: flex;
 	height: 4.5rem;
-	transition: background-color 0.05s ease-out;
+	transition: background-color 0.1s ease-out;
 }
 
 .listItem:hover {

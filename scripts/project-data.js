@@ -2,7 +2,7 @@ const PROJECTS = {
 	// Characters
 	chris: {
 		title: "Chris",
-		date: "July 2023",
+		date: "January 2023",
 
 		images: {
 			base: "assets/images/renders/characters/chris/chris",

@@ -59,9 +59,9 @@ body {
 
 .modal-content {
 	background: linear-gradient(to bottom,
-		#606060ff 0px,
-		#606060ff 50px,
-		#60606000 51px
+		#545454ff 0px,
+		#545454ff 50px,
+		#54545400 51px
 	);
 }
 
