@@ -92,13 +92,14 @@ body {
 }
 
 .article-section {
-	margin-bottom: 6rem;
+	margin-bottom: 5rem;
 }
 
 .article-header {
     font-family: "Canva", sans-serif;
 	font-size: 24px;
 	font-weight: 700;
+	margin-bottom: 4px;
 }
 
 .article-body {

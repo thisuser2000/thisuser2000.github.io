@@ -197,7 +197,7 @@ section {
 }
 
 .section-bottom {
-	padding-bottom: 10rem;
+	padding-bottom: 16rem;
 }
 
 
@@ -287,4 +287,14 @@ section {
 .card:hover > .card-glare {
 	opacity: 70%;
 	transition: all 0.07s ease-out;
+}
+
+.footer {
+	display: flex;
+}
+
+.footer p {
+	color: #ffffff80;
+	margin: 0.5rem;
+	margin-left: auto;
 }
