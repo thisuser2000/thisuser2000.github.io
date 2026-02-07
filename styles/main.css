@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-:root {
-	--cardShadow1: 0px 1px 1px #000000b0;
-	--cardShadow2: 0px 3px 12px #00000090;
-}
-
 @font-face {
 	font-family: "Open Sans";
 	src: url('../fonts/opensans.eot');
@@ -100,21 +95,20 @@ section {
 }
 
 .listItem {
-	background-color: #58606b80;
-	box-shadow: 0px 1px 1px #00000050;
 	border-radius: 0.4rem;
 	padding: 0.4rem;
 	display: flex;
 	height: 4.5rem;
-	transition: background-color 0.1s ease-out;
+	transition: filter 0.1s ease-out;
 }
 
 .listItem:hover {
-	background-color: #58606be0;
+	filter: brightness(1.2);
 }
 
 .listItem > img {
-	border-radius: 0.25rem;
+	border-radius: 0.33rem;
+	aspect-ratio: 4/3;
 }
 
 .listItem-text {
@@ -159,7 +153,6 @@ section {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background-color: #69727b;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -274,7 +267,6 @@ section {
 	margin-left: 0.8rem;
 	margin-right: 0.8rem;
 	margin-bottom: 0.8rem;
-	text-shadow: 0rem 0.5px 1.5px #000000ff;
 }
 
 .card:hover {
@@ -294,7 +286,6 @@ section {
 }
 
 .footer p {
-	color: #ffffff80;
 	margin: 0.5rem;
 	margin-left: auto;
 }

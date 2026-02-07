@@ -73,7 +73,6 @@
 	width: 100%;
 	border-radius: 0.65rem;
 	padding-top: 1px;
-	box-shadow: 0rem 0.2rem 3.5rem #000000ff;
 }
 
 .modal-container {
@@ -138,7 +137,6 @@
 	margin-top: 0.5rem;
 	margin-bottom: 2px;
 	padding: 13px 16px 13px 16px;
-	box-shadow: 0px 1px 1px #00000050;
     display: flex;
 	cursor: pointer;
     user-select: none;
@@ -168,8 +166,8 @@
 .slideshow-feature {
 	user-select: none;
 	width: 100%;
+	aspect-ratio: 3/2;
 	height: auto;
-	background-color: #000;
 }
 
 .slideshow-overlay {
@@ -181,10 +179,9 @@
 	column-gap: 45%;
 }
 
-.slideshow-overlay > img {
+.slideshow-overlay img {
 	width: 2rem;
 	margin: auto;
-	filter: invert() drop-shadow(0rem 2px 1px #000000ff);
 }
 
 .slideshow-left {
@@ -195,10 +192,7 @@
 	background-image: url('../assets/gradient2.png');
 }
 
-.slideshow-left > img {
-	width: 2rem;
-	margin: auto;
-	filter: invert() drop-shadow(0rem 2px 1px #000000ff);
+.slideshow-left img {
 	margin-left: 1rem;
 }
 
@@ -209,10 +203,7 @@
 	background-image: url('../assets/gradient3.png');
 }
 
-.slideshow-right > img {
-	width: 2rem;
-	margin: auto;
-	filter: invert() drop-shadow(0rem 2px 1px #000000ff);
+.slideshow-right img {
 	margin-right: 1rem;
 }
 

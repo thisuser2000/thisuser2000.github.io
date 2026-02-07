@@ -7,7 +7,6 @@
 	z-index: 100;
 	position: fixed;
 	user-select: none;
-	box-shadow: 0rem 0.1rem 0.6rem #00000088;
 }
 
 .logo {
@@ -41,7 +40,6 @@
 
 .navbar-page:hover {
 	opacity: 100%;
-	background-color: #ffffff30;
 }
 
 .navbar-page > img,
@@ -56,7 +54,6 @@
 	font-family: "Open Sans Semibold";
 	line-height: 26px;
 	margin-left: 13px;
-	color: #ffffff;
 	opacity: 100%;
 	user-select: none;
 }
@@ -99,11 +96,9 @@
 
 
 #menu {
-	box-shadow: 0rem 0.1rem 0.67rem #00000000;
 	width: 100%;
 	height: 0px;
 	top: 80px;
-	box-shadow: var(--shadow-none);
 	z-index: 50;
 	position: fixed;
 	overflow: hidden;
@@ -141,7 +136,6 @@
 	font-family: "Open Sans Semibold";
 	line-height: 30px;
 	margin-left: 14px;
-	color: #ffffff;
 	opacity: 100%;
 	user-select: none;
 }

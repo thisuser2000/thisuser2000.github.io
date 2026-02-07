@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+:root {
+	--shadow-none: 0px 0px 0px #00000000;
+	--cardShadow1: 0px 1px 1px #000000b0;
+	--cardShadow2: 0px 3px 12px #00000090;
+}
+
+* {
+	color: #ffffff;
+}
+
+body {
+	background-color: #333a43;
+}
+
+::selection {
+    background: #ffffff30;
+}
+
+/* ---------------------------------------------------- */
+
+.navbar {
+	background: linear-gradient(to bottom, #525252, #2a2a2a);
+	box-shadow: 0rem 0.1rem 0.6rem #00000088;
+}
+
+.navbar-page > span,
+.navbar-pageCurrent > span {
+	color: #ffffff;
+}
+
+.navbar-page:hover {
+	background-color: #ffffff30;
+}
+
+.navbar-divider {
+	background-color: #606060;
+}
+
+#menu {
+	background-color: #2b2b2b;
+	box-shadow: var(--shadow-none);
+}
+
+.menu-page,
+.menu-pageCurrent {
+	background-color: #d0d0d000;
+}
+
+.menu-page:hover {
+	background-color: #d0d0d020;
+}
+
+.menu-page > span,
+.menu-pageCurrent > span {
+	color: #ffffff;
+}
+
+.menu-divider {
+	background-color: #4a4a4a;
+}
+
+.banner {
+	background-color: #69727b;
+}
+
+.banner-gradient {
+	background: linear-gradient(to bottom, #333a4350, #333a43ff);
+}
+
+.divider {
+	background-color: #ffffff60;
+}
+
+.card {
+	background-color: #2c313a;
+}
+
+.card-text {
+	text-shadow: 0rem 0.5px 1.5px #000000ff;
+}
+
+.listItem {
+	background-color: #464d57;
+	box-shadow: 0px 1px 1px #00000050;
+}
+
+.listItem > img {
+	background-color: #272a2f;
+}
+
+.footer p {
+	color: #ffffff80;
+}
+
+/* -------------------- Modal -------------------------------- */
+
+.modal {
+	background-color: #080808d0;
+}
+
+.modal-content {
+	box-shadow: 0rem 0.2rem 3.5rem #000000ff;
+	background: linear-gradient(to bottom,
+		#545454ff 0px,
+		#545454ff 50px,
+		#54545400 51px
+	);
+}
+
+.modal-section1 {
+	background-color: #333333;
+}
+
+.modal-section2 {
+	background-color: #404040;
+}
+
+.modal-button {
+	background-color: #ffffff20;
+	box-shadow: 0px 1px 1px #00000050;
+}
+
+.modal-button:hover {
+	background-color: #ffffff3a;
+}
+
+.slideshow {
+	border: 3px solid #101010;
+}
+
+.slideshow-feature {
+	background-color: #000;
+}
+
+.slideshow-counter {
+	background-color: #101010;
+}
+
+.slideshow-overlay img {
+	filter: invert() drop-shadow(0rem 1px 1px #000000c0);
+}
+
+/* -------------------- Article -------------------------------- */
+
+.article-backButton {
+	background-color: #ffffff40;
+	box-shadow: 0px 1px 1px #00000010;
+}
+
+.article-backButton > span {
+	color: #404040;
+}
+
+.article-backButton:hover {
+	background-color: #ffffff70;
+}
+
+.article-download > span {
+	color: #3a79c2;
+}
+
+.article-divider {
+	background-color: #a0a0a080;
+}
+
+.article-end {
+	background-color: #606060;
+}
