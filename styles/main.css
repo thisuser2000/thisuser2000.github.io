@@ -242,7 +242,7 @@ section {
 	user-select: none;
 	cursor: pointer;
 	transform: scale(1);
-	transition: background-color 0.14s ease-out, transform 0.14s ease-out, box-shadow 0.14s ease-out;
+	transition: background-color 0.11s ease-out, transform 0.11s ease-out, box-shadow 0.11s ease-out;
 	transition-timing-function: cubic-bezier(.17,.44,.4,1);
 }
 
@@ -254,7 +254,7 @@ section {
 	border-radius: 9px;
 	background-size: cover;
 	background-image: url('../assets/images/glare.webp');
-	transition: all 0.14s ease-out;
+	transition: all 0.11s ease-out;
 	transition-timing-function: cubic-bezier(.17,.44,.4,1);
 }
 
