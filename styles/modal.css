@@ -176,7 +176,7 @@
 	width: 100%;
 	height: 100%;
 	grid-template-columns: 1fr 1fr;
-	column-gap: 45%;
+	column-gap: 15%;
 }
 
 .slideshow-overlay img {
@@ -189,7 +189,6 @@
 	cursor: pointer;
 	visibility: hidden;
 	height: 100%;
-	background-image: url('../assets/gradient2.png');
 }
 
 .slideshow-left img {
@@ -201,7 +200,6 @@
 	cursor: pointer;
 	visibility: hidden;
 	height: 100%;
-	background-image: url('../assets/gradient3.png');
 }
 
 .slideshow-right img {
