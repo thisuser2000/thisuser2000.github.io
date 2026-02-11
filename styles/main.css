@@ -111,6 +111,19 @@ section {
 	aspect-ratio: 4/3;
 }
 
+.listItemPDF {
+	background-color: #2c3239;
+	border-radius: 0.33rem;
+	display: flex;
+	aspect-ratio: 4/3;
+}
+
+.listItemPDF img {
+	filter: invert();
+	margin: auto;
+	height: 36px;
+}
+
 .listItem-text {
 	margin-top: auto;
 	margin-bottom: auto;
