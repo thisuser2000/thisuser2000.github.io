@@ -7,7 +7,7 @@
 }
 
 body {
-	background-color: #d6dde8;
+	background-color: #e0e6ee;
 }
 
 ::selection {
@@ -15,7 +15,7 @@ body {
 }
 
 .banner-gradient {
-	background: linear-gradient(to bottom, #d6dde850, #d6dde8ff);
+	background: linear-gradient(to bottom, #e0e6ee60, #e0e6eeff);
 }
 
 /* ------------------------------ */
