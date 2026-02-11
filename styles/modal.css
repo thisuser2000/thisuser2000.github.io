@@ -199,6 +199,7 @@
 .slideshow-right {
 	display: flex;
 	cursor: pointer;
+	visibility: hidden;
 	height: 100%;
 	background-image: url('../assets/gradient3.png');
 }
