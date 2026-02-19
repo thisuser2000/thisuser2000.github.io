@@ -188,6 +188,7 @@
 	display: flex;
 	cursor: pointer;
 	visibility: hidden;
+	z-index: 10;
 	height: 100%;
 }
 
@@ -199,6 +200,7 @@
 	display: flex;
 	cursor: pointer;
 	visibility: hidden;
+	z-index: 10;
 	height: 100%;
 }
 
@@ -207,6 +209,7 @@
 }
 
 .slideshow-counter {
+	user-select: none;
 	display: flex;
 	position: absolute;
 	top: auto;
