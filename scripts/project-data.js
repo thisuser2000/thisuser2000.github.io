@@ -226,6 +226,7 @@ const PROJECTS = {
 			This project stemmed from a desire to create an eyeball with an iris that constricts and dilates while maintaining its spherical shape, something that the traditional blendshape method doesn't allow. There are also settings for pupil control, artistic glint, glint size and sharpness. Multiple textures are included covering the basic eye colours.
 			<br><br>
 			Feel free to use it in your own character rigs and be sure to connect your aim targets to the provided hook node.
+			<br><br>
 		`,
 
 		downloads: []
