@@ -97,6 +97,23 @@ const PROJECTS = {
 		downloads: []
 	},
 
+	bedroom: {
+		title: "Bedroom",
+		date: "WORK IN PROGRESS",
+
+		images: {
+			base: "assets/images/renders/environments/bedroom/bedroom",
+			total: 3
+		},
+
+		description: `
+			I try to achieve something new with every project, and this cluttered bedroom seemed like the perfect opportunity to go all in with the modelling. By establishing the layout of the camera and placeholder objects first, I was able to focus solely on what would be visible in the final render, and prioritize level-of-detail.
+			<br><br>
+		`,
+
+		downloads: []
+	},
+
 	war: {
 		title: "War Memorial",
 		date: "January 2025",
@@ -107,24 +124,7 @@ const PROJECTS = {
 		},
 
 		description: `
-			The war memorial located in the Wellington CBD seemed like an interesting place to recreate. I tried to worry less about getting the measurements exactly right, and focus more on the bigger picture. The horse statue in the foreground was created with photogrammetry, while everything else was modelled by hand.
-			<br><br>
-		`,
-
-		downloads: []
-	},
-
-	bedroom: {
-		title: "Bedroom",
-		date: "November 2023",
-
-		images: {
-			base: "assets/images/renders/environments/bedroom/bedroom",
-			total: 3
-		},
-
-		description: `
-			I try to achieve something new with every project, and this cluttered bedroom seemed like the perfect opportunity to go all in with the modelling. By establishing the layout of the camera and placeholder objects first, I was able to focus solely on what would be visible in the final render, and prioritize level-of-detail.
+			The war memorial located in the Wellington CBD seemed like an interesting place to recreate. I tried to worry less about getting the measurements exactly right, and focus more on the bigger picture. The horse statue in the foreground was generated with photogrammetry, while everything else was modelled by hand.
 			<br><br>
 		`,
 
@@ -168,7 +168,7 @@ const PROJECTS = {
 		description: `
 			After seeing how well Mount Victoria turned out, I decided to recreate a more convenient location. I took a different approach this time, taking note of the dimensions of the scene with a tape measure. The scene extends outside, revealing a carpark and alley.
 			<br><br>
-			It was interesting (and rather disorienting) to see the project develop as most of the modelling was done in that same room, on that workbench in the corner. I had planned to use it for a short film or virtual reality experience, or maybe as a “meta” level in the major projects game where the player would encounter me working on the game.
+			It was interesting (and rather disorienting) to see the project develop as most of the modelling was done in that same room, on that workbench in the corner. I had planned to use it for a short film or virtual reality experience, or maybe as a “meta” level in the Major Projects game where the player would encounter me working on the game.
 			<br><br>
 		`,
 
