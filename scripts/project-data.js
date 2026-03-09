@@ -84,7 +84,7 @@ const PROJECTS = {
 
 		images: {
 			base: "assets/images/renders/environments/panera/panera",
-			total: 4
+			total: 6
 		},
 
 		description: `
@@ -185,7 +185,7 @@ const PROJECTS = {
 		},
 
 		description: `
-			This remake of a real location was made using large-scale photogrammetry and involved taking over 1,000 photos. Using the generated model as reference, I then manually recreated everything with clean geometry.
+			This remake of a real location was made using large-scale photogrammetry and involved taking over 600 photos. Using the generated model as reference, I then manually recreated everything with clean geometry.
 			<br><br>
 			The grass was made using XGen, while the bark was faked using a simple greyscale displacement map converted from the original texture.
 			<br><br>
