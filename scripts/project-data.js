@@ -80,7 +80,7 @@ const PROJECTS = {
 	// Environments
 	panera: {
 		title: "Panera Bread",
-		date: "December 2025",
+		date: "WORK IN PROGRESS",
 
 		images: {
 			base: "assets/images/renders/environments/panera/panera",
@@ -91,6 +91,8 @@ const PROJECTS = {
 			This environment is located way over in Colorado. I don't have the means to go there myself, but luckily there's plenty of reference from Google Maps and a certain infamous video...
 			<br><br>
 			Interior environments like this are always a pleasure to make, given that (apart from the carpark and some distant buildings) the boundaries are clearly defined, making it easy to know where to stop. It's like its own little isolated world.
+			<br><br>
+			Notice the improved lighting in the later iteration, which places more emphasis on the entrance, guiding the eye to that part of the frame. Some thought was given to the colour scheme, and I tried to bias objects towards either yellow or blue (as seen in the grass, blue car and blinds on the right side of the building).
 			<br><br>
 		`,
 

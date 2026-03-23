@@ -11,7 +11,7 @@ body {
 }
 
 ::selection {
-    background: #00000030;
+    background: #3161a630;
 }
 
 .banner-gradient {
@@ -31,6 +31,7 @@ body {
 	border-radius: 6px;
 	margin-bottom: 2.5rem;
 	user-select: none;
+	transition: background-color 0.05s ease-out;
 }
 
 .article-backButton > img {
