@@ -99,6 +99,25 @@ const PROJECTS = {
 		downloads: []
 	},
 
+	jak: {
+		title: "Unused Jak Level",
+		date: "WORK IN PROGRESS",
+
+		images: {
+			base: "assets/images/renders/environments/jak/jak",
+			total: 4
+		},
+
+		description: `
+			Recreation of the unused "Yosemite" level from Jak and Daxter: The Precursor Legacy. This reportedly would have been located behind the miners' cave in Volcanic Crater and contained the switch for the red eco vents.
+			<br><br>
+			Due to the limited information on this level, I had to come up with different missions and objects and work out exactly how it fits into the world. For instance, I figured there would be a launcher at the top of one mountain, and an ice-cold stream descending from Snowy Mountain would look nice.
+			<br><br>
+		`,
+
+		downloads: []
+	},
+
 	bedroom: {
 		title: "Bedroom",
 		date: "WORK IN PROGRESS",
