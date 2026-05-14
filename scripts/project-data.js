@@ -96,7 +96,13 @@ const PROJECTS = {
 			<br><br>
 		`,
 
-		downloads: []
+		downloads: [
+			{
+				icon: "maps",
+				text: "View reference location",
+				href: "https://www.google.com/maps/place/Panera+Bread/@39.8858737,-105.0759612,18.5z/data=!4m6!3m5!1s0x876b8a2a8529fedf:0xfbc068fe9adea372!8m2!3d39.8862788!4d-105.0769935!16s%2Fg%2F1tfcz998?entry=ttu&g_ep=EgoyMDI2MDUxMS4wIKXMDSoASAFQAw%3D%3D"
+			}
+		]
 	},
 
 	jak: {
