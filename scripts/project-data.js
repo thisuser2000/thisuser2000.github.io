@@ -84,7 +84,7 @@ const PROJECTS = {
 
 		images: {
 			base: "assets/images/renders/environments/panera/panera",
-			total: 6
+			total: 7
 		},
 
 		description: `
@@ -111,7 +111,7 @@ const PROJECTS = {
 		description: `
 			Recreation of the unused "Yosemite" level from Jak and Daxter: The Precursor Legacy. This reportedly would have been located behind the miners' cave in Volcanic Crater and contained the switch for the red eco vents.
 			<br><br>
-			Due to the limited information on this level, I had to come up with different missions and objects and work out exactly how it fits into the world. For instance, I figured there would be a launcher at the top of one mountain, and an ice-cold stream descending from Snowy Mountain would look nice.
+			Due to the limited information on this level, I had to come up with different missions and objects and work out exactly how it fits into the world. For instance, I figured there would be a launcher at the top of one mountain, and decided an ice-cold stream descending from Snowy Mountain would look nice.
 			<br><br>
 		`,
 
@@ -366,23 +366,6 @@ const PROJECTS = {
 		downloads: []
 	},
 
-	principles: {
-		title: "Principles of Animation",
-		date: "September 2018",
-
-		images: {
-			base: "assets/images/animations/principles/principles",
-			total: 1
-		},
-
-		description: `
-			Similar to the PlayStation commercial, this assignment required the use of the principles of animation, this time showing the adventures of a ball in a 3D setting.
-			<br><br>
-		`,
-
-		downloads: []
-	},
-
 	party: {
 		title: "The Party Room",
 		date: "December 2017",
@@ -394,23 +377,6 @@ const PROJECTS = {
 
 		description: `
 			After traversing a seemingly endless field, the guardian stumbles upon a room set up for a party that never happened. What's in the box?
-			<br><br>
-		`,
-
-		downloads: []
-	},
-
-	playstation: {
-		title: "PlayStation Commercial",
-		date: "September 2017",
-
-		images: {
-			base: "assets/images/animations/playstation/playstation",
-			total: 1
-		},
-
-		description: `
-			This assignment required using After Effects to promote a product with as many of the principles of animation as possible.
 			<br><br>
 		`,
 
