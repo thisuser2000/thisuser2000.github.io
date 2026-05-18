@@ -350,7 +350,13 @@ const PROJECTS = {
 		<br><br>
 		`,
 
-		downloads: []
+		downloads: [
+			{
+				icon: "youtube",
+				text: "Watch on YouTube",
+				href: "NULL"
+			}
+		]
 	},
 
 	loops: {
@@ -369,7 +375,13 @@ const PROJECTS = {
 		<br><br>
 		`,
 
-		downloads: []
+		downloads: [
+			{
+				icon: "youtube",
+				text: "Watch on YouTube",
+				href: "NULL"
+			}
+		]
 	},
 
 	party: {
@@ -386,7 +398,13 @@ const PROJECTS = {
 			<br><br>
 		`,
 
-		downloads: []
+		downloads: [
+			{
+				icon: "youtube",
+				text: "Watch on YouTube",
+				href: "NULL"
+			}
+		]
 	},
 
 	toilet: {
@@ -403,7 +421,13 @@ const PROJECTS = {
 			<br><br>
 		`,
 
-		downloads: []
+		downloads: [
+			{
+				icon: "youtube",
+				text: "Watch on YouTube",
+				href: "NULL"
+			}
+		]
 	},
 
 	game: {
