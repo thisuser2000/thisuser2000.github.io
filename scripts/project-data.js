@@ -147,7 +147,7 @@ const PROJECTS = {
 
 		images: {
 			base: "assets/images/renders/environments/war/war",
-			total: 4
+			total: 3
 		},
 
 		description: `
